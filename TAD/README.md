@@ -1,65 +1,94 @@
-# Documentação de Projetos TAD
+# Abstract Data Types (ADT) Documentation
 
-Este documento fornece informações abrangentes sobre os seguintes projetos de TAD (Tipos Abstratos de Dados) contidos no diretório TAD:
+This document provides comprehensive information about the following ADT (Abstract Data Types) projects contained in the ADT directory.
 
-## 1. Conta
+## 1. Account
 
-### Visão Geral
-- Descrição do projeto Conta e sua finalidade.
+### Overview
+- Management system for bank account operations
+- Demonstrates encapsulation and data abstraction principles
 
-### Funcionalidades
-- Lista das principais características e funcionalidades.
+### Features
+- Account creation and initialization
+- Balance management
+- Deposit and withdrawal operations
+- Account information retrieval
 
-### Uso
-- Instruções sobre como utilizar o projeto Conta.
+### Usage
+- Instructions on how to implement and utilize the Account ADT
 
-### Exemplo
-- Exemplo de código ou saída demonstrando o uso da Conta.
-
----
-
-## 2. Curso
-
-### Visão Geral
-- Descrição do projeto Curso.
-
-### Funcionalidades
-- Lista de funcionalidades específicas do Curso.
-
-### Uso
-- Instruções para utilização do projeto Curso.
-
-### Exemplo
-- Exemplo demonstrando a funcionalidade do Curso.
+### Example
+- Example code demonstrating account operations and outputs
 
 ---
 
-## 3. Fracao
+## 2. Course
 
-### Visão Geral
-- Breve descrição do projeto Fração.
+### Overview
+- Course information management system
+- Implements data storage and retrieval for course details
 
-### Funcionalidades
-- Principais características da implementação de Fração.
+### Features
+- Course creation and management
+- Student enrollment tracking
+- Grade and score management
+- Course information queries
 
-### Uso
-- Diretrizes sobre como implementar e executar o projeto Fração.
+### Usage
+- Guidelines for implementing and running the Course ADT
 
-### Exemplo
-- Caso de uso de exemplo para Fração.
+### Example
+- Example demonstrating course management functionality
 
 ---
 
-## 4. Retangulo
+## 3. Fraction
 
-### Visão Geral
-- Visão geral do projeto Retângulo.
+### Overview
+- Fraction arithmetic implementation
+- Demonstrates rational number operations
 
-### Funcionalidades
-- Recursos notáveis disponíveis no projeto Retângulo.
+### Features
+- Fraction creation and simplification
+- Arithmetic operations (addition, subtraction, multiplication, division)
+- Comparison operations
+- Fraction simplification using GCD
 
-### Uso
-- Instruções sobre como usar o Retângulo.
+### Usage
+- Guidelines on how to implement and execute the Fraction ADT
 
-### Exemplo
-- Exemplo para demonstrar a funcionalidade do projeto Retângulo.
+### Example
+- Use case examples for fraction operations
+
+---
+
+## 4. Rectangle
+
+### Overview
+- Geometric rectangle operations and calculations
+- Demonstrates 2D shape handling
+
+### Features
+- Rectangle creation with dimensions
+- Area and perimeter calculations
+- Dimension validation
+- Rectangle comparison and transformation
+
+### Usage
+- Instructions on how to utilize the Rectangle ADT
+
+### Example
+- Example demonstrating rectangle calculations and operations
+
+---
+
+## Implementation Notes
+
+- All ADTs follow the principle of abstraction
+- Each ADT provides a clear interface between the user and implementation
+- Error handling is implemented to ensure data integrity
+- Memory management follows C best practices
+
+## Further Resources
+
+For more information on each ADT, refer to the individual implementation files within each subdirectory.
